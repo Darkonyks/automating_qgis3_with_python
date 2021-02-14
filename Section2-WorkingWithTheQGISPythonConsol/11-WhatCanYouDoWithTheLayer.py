@@ -58,7 +58,15 @@ ftrs = cntry.getFeatures()
 print(ftrs)
 for ftr in ftrs:
     print(ftr['NAME'])
-    print(ftr)
+print(ftr)
+ftr["NAME"]
+ftr["POP_EST"]
 
-
+ftrs = cntry.getFeatures()
+for ftr in ftrs:
+    print(ftr['NAME'], ftr['POP_EST'])
+    
+ftrs = cntry.selectedFeatures()
+for ftr in ftrs:
+    print(ftr['NAME'])
 
