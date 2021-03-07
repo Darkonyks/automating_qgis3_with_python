@@ -1,3 +1,4 @@
+#open empty project and import washington_parcels.gpkg from folder /home/darko/Desktop/qgis_scripting_data/data
 parent = iface.mainWindow()
 mc = iface.mapCanvas()
 lyr = mc.currentLayer()

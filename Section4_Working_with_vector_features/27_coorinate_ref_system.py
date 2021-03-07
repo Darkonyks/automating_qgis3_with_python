@@ -1,3 +1,4 @@
+# open QGIS project python_base from /home/darko/Desktop/qgis_scripting_data/
 lyr = iface.mapCanvas().currentLayer()
 crs = lyr.crs()
 print (crs.isValid())

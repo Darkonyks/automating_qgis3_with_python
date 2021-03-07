@@ -1,3 +1,4 @@
+# open QGIS project python_base from /home/darko/Desktop/qgis_scripting_data/
 mc = iface.mapCanvas()
 lyr = mc.currentLayer()
 print(lyr.sourceName())
