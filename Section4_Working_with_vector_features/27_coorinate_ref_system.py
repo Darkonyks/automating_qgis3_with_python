@@ -1,0 +1,7 @@
+lyr = iface.mapCanvas().currentLayer()
+crs = lyr.crs()
+print (crs.isValid())
+descr = crs.description()
+proj=crs.toProj4()
+wkt = crs.toWkt()
+print(('Coord {0}, \nDescription {1}, \nProjection:{2},\n WKT: {3}').format(crs, descr, proj, wkt))
